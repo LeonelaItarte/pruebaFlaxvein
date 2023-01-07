@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: center;
     width:auto;
-    height: 500px;
+    height: auto;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
    /* backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);*/
@@ -228,6 +228,11 @@ main{
 }
 .img-server img{
   width: -webkit-fill-available;
+}
+.limites{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .info-texto3{
   width: 50%;
